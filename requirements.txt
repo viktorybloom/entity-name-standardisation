@@ -1,0 +1,11 @@
+# Known working packages - otherwise 'package' == latest
+
+pandas==latest
+numpy==latest
+fuzzywuzzy==0.18.0
+sklearn==23.2
+jupytext==1.14.5
+psycopg2-binary==2.9.5
+py2neo==2021.2.3
+spacy==3.5.1
+
