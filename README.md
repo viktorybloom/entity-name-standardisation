@@ -3,8 +3,6 @@
 ### Setup
 Run in jupyter environment and enable items from `requirements.txt`.
 
-For use in docker environment, see https://github.com/viktorybloom/jupyter-stack and clone repos into `Jupyter Stack`.
-
 ### Overview
 
 This name standardisation process utilises FuzzyWuzzy, and Affinity Propagation to cluster manually input records. 
