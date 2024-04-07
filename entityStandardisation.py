@@ -102,8 +102,6 @@ def similarity_clusters(data, inputCol='Input', dropForeign=True):
     return df_sim
 
 
-# -
-
 def standardised_names(df_sim):
     df_sim = similarity_clusters(df_sim)
     # Create a dictionary to store standard names for each cluster
@@ -157,13 +155,6 @@ def standardised_names(df_sim):
     
     return df_sim.drop('standard_name_clean', axis=1)
 
-
-# +
-# Check if data_cleaning works
-#cleaned_data = data_cleaning(df)
-
-# Check if similarity_clusters works
-#cleaned_data = similarity_clusters(df)
 
 cleaned_data = standardised_names(df)
 cleaned_data.to_csv('clean_names.csv', index=False)
